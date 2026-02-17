@@ -1,0 +1,30 @@
+h1{
+    text-shadow: 2px 2px 5px red;
+}
+img.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+}
+img.right {
+    display: block;
+    margin-left: auto;
+    margin-right: right;
+    width: 8%;
+}
+h3{
+
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    text-align:left;
+}
+section{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.square-list {
+    list-style-type: square;
+}
