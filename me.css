@@ -22,6 +22,9 @@ img.right {
     text-align: center;
 }
 
+.cursor{
+     /* adding this gave a cursor for the name but I think it can be streamlined */
+}
 .container{
     max-width: 1300px;  
     margin: auto;       
