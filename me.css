@@ -26,6 +26,7 @@ img.right {
     max-width: 1300px;  
     margin: auto;       
     padding: 025px;      /*adds space between containers */
+    overflow: auto;
 }
 
 .border-text{
