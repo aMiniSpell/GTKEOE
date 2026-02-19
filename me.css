@@ -41,7 +41,7 @@ img.right {
 .border-intro{
     border: solid red;
     background-color:rgb(170, 167, 167);
-    border-radius: 100px;
+    border-radius: 65px;
 }
 
 .border-learn{
