@@ -23,13 +23,38 @@ img.right {
 }
 
 .container{
-    max-width: 1350px;  
+    max-width: 1300px;  
     margin: auto;       
-    padding: 20px;      /*adds space inside container */
+    padding: 025px;      /*adds space between containers */
 }
+
 .border-text{
     border: solid navy;
-    background-color: rgb(161, 200, 201);
+    background-color:rgb(170, 167, 167);
+    border-radius: 100px;
+}
+
+.border-intro{
+    border: solid red;
+    background-color:rgb(170, 167, 167);
+    border-radius: 100px;
+}
+
+.border-learn{
+    border: solid purple;
+    background-color:rgb(170, 167, 167);
+    border-radius: 100px;
+}
+
+.border-hobby{
+    border: solid goldenrod;
+    background-color:rgb(170, 167, 167);
+    border-radius: 100px;
+}
+.border-fact{
+    border: solid forestgreen;
+    background-color:rgb(170, 167, 167);
+    border-radius: 100px;
 }
 
 ul.square-list {
