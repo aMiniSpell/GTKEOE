@@ -2,6 +2,9 @@ h1{
     text-shadow: 2px 2px 5px red;
 }
 
+.purple {
+    color: purple; /* added to call for JS */
+}
 img.center {
     display:block;
     margin-left: auto;

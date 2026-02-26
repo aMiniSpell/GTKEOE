@@ -13,7 +13,8 @@
         <div class="border-text">
             <h1>Getting to Know Each Other Enhanced</h1>
             <!--style allows for it the h2 to be clicked, id allows javascript to recolor-->
-            <h2 style = "cursor: pointer;" id="name">Brandon Scarano</h2>
+            <h2 id="name">Brandon Scarano</h2>
+            <button onclick="makePurple()">Make Purple</button>
             <h3>Preferred Name: Brandon</h3>
 
             <p class="center-text">Email: <a href="mailto:brandonrscarano@lewisu.edu">brandonrscarano@lewisu.edu</a></p>
@@ -86,13 +87,18 @@
 <!-- use javascript to add a last edit to the page-->
  <p>Last Updated on <span id="date-display"></span></p>
  <script>
-    let d = new Date("2026/02/19").toLocaleDateString();
+    let d = new Date("2026/02/26").toLocaleDateString();
     document.getElementById("date-display").innerHTML = d;
                 /* slashes in the date make it standard to timezone -- dashes set it to UTC */
-    const textElement = document.getElementById("name");
+    
+    function makePurple(){
+        console.log("Calling makePurple function")
+        document.getElementById('name').classList.add("purple");
+    }
+        /*        const textElement = document.getElementById("name");
     textElement.addEventListener("click", function(){
         this.style.color = "purple";
-    });
+    }); */
 </script>
 </body>
 </html>
